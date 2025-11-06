@@ -107,10 +107,30 @@ echo"invalid";
 
 add:
     echo $i+2;
+    echo"value of addition $i";
     exit;
 sub:
     echo $i-2;
+    echo"value of subtraction $i";
     exit;
+?>
+<?php
+$num=readline("enter number here");
+$a=1;
+do{
+    echo ($num x $a)=.($num*$a);
+    echo "\n";
+    $a++;
+};
+while($a<=12);
+?>
+<?php
+<?php
+for($i=1; $i<=10;$i++){
+    if($i==3) continue;//skip the value 3
+    if($i==7) break;//stop at 7
+    echo$i."";
+}
 ?>
 
 </body>
